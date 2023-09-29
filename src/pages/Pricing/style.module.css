@@ -1,0 +1,305 @@
+.myPricing{
+    width: 100%;
+    height: 800px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forHeaderText{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.forHeaderText > h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.divFor2Divs{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.divKeterov1{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dotted 6px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.keterovDiviMejiDiv1{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.keterovDiviMejiDiv1>p{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.mecTexteriHamar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mecTexteriHamar > h2 {
+    font-size: 20px;
+    font-family: cursive;
+
+}
+.poqrTexteriHamar1{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+.poqrTexteriHamar1>p{
+    color: rgb(62, 62, 62);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.buttoniHamar{
+    width: 170px;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+}
+.buttoniHamar > button{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 3px solid gold;
+    color: gold;
+    font-size: 18px;
+    font-family: cursive;
+    border-radius: 7px;
+    
+}
+.buttoniHamar>button:hover{
+    transition: 0.4s;
+    border-top: 3px solid gold;
+    cursor: pointer;
+    border-radius: 7px;
+    color: brown;
+    font-weight: 700;
+
+}
+
+.keterovDiviMejiDiv2{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.kloriHamarDiv{
+    width: 300px;
+    height: 110px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.forCircle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.forCircle>h2{
+    font-size: 19px;
+    color: white;
+}
+.forCircle>h1{
+    color: white;
+}
+.poqrTexteriHamar2{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 20px;
+    
+}
+.poqrTexteriHamar2>p{
+    color: rgb(62, 62, 62);
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .myPricing {
+        
+        height: auto;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         
+    }
+
+    .forHeaderText > h1 {
+        font-size: 19px; 
+    }
+
+    .divFor2Divs {
+       
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+    
+
+    .divKeterov1,
+    .keterovDiviMejiDiv1,
+    .keterovDiviMejiDiv2 {
+        width: 400px; 
+        height: auto;
+        
+    }
+
+    .buttoniHamar {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttoniHamar > button {
+        width: 120px;
+        height: 40px; 
+    }
+}
+
+.forCardIcons{
+    width: 100%;
+    height: 50px;
+    /* background-color: #ff5722; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    gap: 20px;
+    transition: 0.9s;
+
+}
+
+.forCardIcons .cardIcons:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+/* buttoni modal patuhan */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.805);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.9s ease-in;
+    
+  }
+  
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .modal h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .modalContent > input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forModalButton{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(188, 119, 28); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .forModalButton > button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s;
+    font-size: 17px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+
+    
+  }
+  
+  button:last-child {
+    margin-right: 0;
+  }
+
+  .forModalButton > button:hover{
+    transition: 0.5s;
+    background-color: #242322;
+    cursor: pointer;
+  }

@@ -1,0 +1,419 @@
+.mySchedule {
+    width: 100%;
+    height: 800px;
+    background-image: url('/public/pic/fon2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.mySchedule>h1 {
+    font-size: 55px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    color: rgb(54, 54, 54);
+}
+
+.Date {
+    border-top-left-radius: 30px;
+}
+
+.Friday {
+    border-top-right-radius: 30px;
+}
+
+.myTable {
+    width: 80%;
+    height: 600px;
+    border-radius: 25px;
+
+}
+
+.myTableTr {
+    width: 120px;
+    height: 70px;
+    background-color: rgb(249, 75, 12);
+    border-radius: 25px;
+
+
+}
+
+.myTableTr th {
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.myTableTr2 {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(249, 75, 12);
+
+
+}
+
+.myTableTr2>.myTableTrForPic {
+    background-image: url('/public/pic/madona_3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.myTableTr td>h1,
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.myTableTrForPic>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.tdMyDay {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tdDatark {
+    background-color: rgb(255, 193, 203);
+}
+
+.myTableTrForPic2 {
+    background-image: url('/public/pic/rihanna_3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myTableTrForPic2>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.myTableTr3 {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(249, 75, 12);
+}
+
+.tdMyDay2 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tdDatark2 {
+    background-color: rgb(235, 211, 215);
+}
+
+.myTableTrForPic3 {
+    background-color: rgb(35, 35, 35);
+}
+
+.myTableTrForPic3>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.tdDatark22 {
+    background-color: rgb(217, 222, 235);
+
+}
+
+.myTableTr4 {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(249, 75, 12);
+}
+
+.tdMyDay3 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-left-radius: 30px;
+}
+
+.myTableTrForPic4 {
+    background-image: url('/public/pic/Bruno_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myTableTrForPic4>h1 {
+    color: rgb(162, 26, 26);
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.myTableTrForPic4>p {
+    color: rgb(185, 17, 17);
+
+}
+
+.tdDatark3 {
+    background-color: rgb(226, 220, 221);
+
+}
+
+.myTableTrForPic5 {
+    background-color: rgb(35, 35, 35);
+    border-bottom-right-radius: 30px;
+
+}
+
+.myTableTrForPic5>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+
+@media (max-width: 768px) {
+    .mySchedule {
+        height: auto;
+        padding: 20px;
+    }
+
+    .myTable {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+    .mySchedule>h1 {
+        font-size: 40px;
+    }
+
+
+}
+
+/* ********************  2 ej */
+
+.mySchedule_2 {
+    width: 100%;
+    height: 800px;
+    background-image: url('/public/pic/Hayko_2uqbkq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.mySchedule_2>h1 {
+    font-size: 55px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    color: rgb(54, 54, 54);
+}
+
+.Date_2 {
+    border-top-left-radius: 30px;
+}
+
+.Friday_2 {
+    border-top-right-radius: 30px;
+}
+
+.myTable_2 {
+    width: 80%;
+    height: 600px;
+    border-radius: 25px;
+
+}
+
+.myTableTr_2 {
+    width: 120px;
+    height: 70px;
+    background-color: rgb(249, 75, 12);
+    border-radius: 25px;
+
+
+}
+
+.myTableTr_2 th {
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.myTableTr2_2 {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(249, 75, 12);
+
+
+}
+
+.myTableTr2_2>.myTableTrForPic_2 {
+    background-image: url('/public/pic/Ladaniva.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.myTableTr_2 td>h1,
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.myTableTrForPic_2>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.tdMyDay_2 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tdDatark_2 {
+    background-color: rgb(145, 230, 178);
+}
+
+.myTableTrForPic2_2 {
+    background-image: url('/public/pic/arkadi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myTableTrForPic2_2>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.myTableTr3_2 {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(249, 75, 12);
+}
+
+.tdMyDay2_2 {
+    background-color: rgb(51, 51, 51);
+    color: rgb(250, 246, 246);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tdDatark2_2 {
+    background-color: rgb(235, 148, 162);
+}
+
+.myTableTrForPic3_2 {
+    background-color: rgb(35, 35, 35);
+}
+
+.myTableTrForPic3_2>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.tdDatark22_2 {
+    background-color: rgb(151, 169, 214);
+
+}
+
+.myTableTr4_2 {
+    width: 120px;
+    height: 180px;
+    background-color: rgb(249, 75, 12);
+}
+
+.tdMyDay3_2 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom-left-radius: 30px;
+}
+
+.myTableTrForPic4_2 {
+    background-image: url('/public/pic/Sirusho_pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myTableTrForPic4_2>h1 {
+    color: rgb(162, 26, 26);
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.myTableTrForPic4_2>p {
+    color: rgb(185, 17, 17);
+
+}
+
+.tdDatark3_2 {
+    background-color: rgb(204, 155, 211);
+
+}
+
+.myTableTrForPic5_2 {
+    background-color: rgb(35, 35, 35);
+    border-bottom-right-radius: 30px;
+
+}
+
+.myTableTrForPic5_2>h1 {
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+
+@media (max-width: 768px) {
+    .mySchedule_2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .myTable_2 {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+    .mySchedule>h1 {
+        font-size: 40px;
+    }
+
+
+}

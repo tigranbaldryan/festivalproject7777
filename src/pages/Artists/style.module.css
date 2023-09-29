@@ -1,0 +1,723 @@
+.myArtists{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    
+}
+.myArtists h1{
+    color: black;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forArtistPic{
+    width: 500px;
+    height: 750px;
+    background-image: url('/public/pic/madona_3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+    padding-bottom: 20px;
+}
+
+
+
+
+.textH1{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: darkgrey;
+}
+.textH1 h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family:monospace;
+}
+.forHover{
+    width: 450px;
+    height: 250px;
+    background-color: rgba(255, 196, 0, 0.847);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7s ease;
+    
+
+}
+.forHover:hover{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateY(-30px)
+    
+}
+
+.forHoverTop{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.forHoverTop h3{
+    color: white;
+    font-size: 19px;
+}
+.forHoverTop p {
+    color: rgb(61, 61, 61);
+    font-size: 19px;
+}
+.forHoverBottom{
+    width: 100%;
+    height: 30%;
+    background-color:rgba(255, 196, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.forHoverBottom h3{
+    color: white;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 19px;
+    font-family: cursive;
+    transition: 0.4s;
+
+}
+a:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+/* erkrord nkary */
+.div2{
+    width: 600px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.forArtistPic2{
+    width: 500px;
+    height: 350px;
+    background-image: url('/public/pic/rihanna_3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.forHover2{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 196, 0, 0.847);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7s ease;
+    
+
+}
+.forHover2:hover{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateY(-30px)
+    
+}
+
+.forHoverTop2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.forHoverTop2 h3{
+    color: white;
+    font-size: 19px;
+}
+.forHoverTop2 p {
+    color: rgb(61, 61, 61);
+    font-size: 19px;
+}
+.forHoverBottom2{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 196, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.forHoverBottom2 h3{
+    color: white;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 9, 9);
+    font-size: 19px;
+    font-family: cursive;
+    transition: 0.4s;
+
+}
+a:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+/* errord nkary */
+
+.forArtistPic3{
+    width: 500px;
+    height: 350px;
+    background-image: url('/public/pic/Bruno_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.forHover3{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 196, 0, 0.847);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7s ease;
+    
+
+}
+.forHover3:hover{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateY(-30px)
+    
+}
+
+.forHoverTop3{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.forHoverTop3 h3{
+    color: white;
+    font-size: 19px;
+}
+.forHoverTop3 p {
+    color: rgb(61, 61, 61);
+    font-size: 19px;
+}
+.forHoverBottom3{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 196, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.forHoverBottom3 h3{
+    color: white;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(187, 12, 12);
+    font-size: 19px;
+    font-family: cursive;
+    transition: 0.4s;
+
+}
+a:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .myArtists {
+        height: auto; 
+        flex-direction: column; 
+    }
+
+    .forArtistPic,
+    .forArtistPic2,
+    .forArtistPic3 {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .myArtists h1 {
+        font-size: 24px;
+    }
+
+    .forArtistPic,
+    .forArtistPic2,
+    .forArtistPic3 {
+        height: 250px;
+        width: 350px;
+    }
+
+    .forHover,
+    .forHover2,
+    .forHover3 {
+        width: 290px;
+        height: 180px;
+        padding-bottom: 10px;
+    }
+
+    .forHoverTop,
+    .forHoverTop2,
+    .forHoverTop3 {
+        height: 60%;
+    }
+
+    .forHoverTop h3,
+    .forHoverTop2 h3,
+    .forHoverTop3 h3 {
+        font-size: 16px;
+    }
+
+    .forHoverTop p,
+    .forHoverTop2 p,
+    .forHoverTop3 p {
+        font-size: 16px; 
+    }
+
+    .forHoverBottom,
+    .forHoverBottom2,
+    .forHoverBottom3 {
+        height: 40%;
+    }
+
+    .forHoverBottom h3,
+    .forHoverBottom2 h3,
+    .forHoverBottom3 h3 {
+        font-size: 16px; 
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+/* **** 2 ej */
+
+.myArtists_2{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    
+}
+.myArtists_2 h1{
+    color: black;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forArtistPic_2{
+    width: 500px;
+    height: 750px;
+    background-image: url('/public/pic/Ladaniva.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+    padding-bottom: 20px;
+}
+
+
+
+
+.textH1_2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.textH1_2 h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family:monospace;
+}
+.forHover_2{
+    width: 450px;
+    height: 250px;
+    background-color: rgba(255, 196, 0, 0.847);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7s ease;
+    
+
+}
+.forHover_2:hover{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateY(-30px)
+    
+}
+
+.forHoverTop_2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.forHoverTop_2 h3{
+    color: white;
+    font-size: 19px;
+}
+.forHoverTop_2 p {
+    color: rgb(61, 61, 61);
+    font-size: 19px;
+}
+.forHoverBottom_2{
+    width: 100%;
+    height: 30%;
+    background-color:rgba(255, 196, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.forHoverBottom_2 h3{
+    color: white;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(230, 12, 12);
+    font-size: 19px;
+    font-family: cursive;
+    transition: 0.4s;
+
+}
+a:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+/* erkrord nkary */
+.div2_2{
+    width: 600px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.forArtistPic2_2{
+    width: 500px;
+    height: 350px;
+    background-image: url('/public/pic/arkadi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.forHover2_2{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 196, 0, 0.847);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7s ease;
+    
+
+}
+.forHover2_2:hover{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateY(-30px)
+    
+}
+
+.forHoverTop2_2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.forHoverTop2_2 h3{
+    color: white;
+    font-size: 19px;
+}
+.forHoverTop2_2 p {
+    color: rgb(61, 61, 61);
+    font-size: 19px;
+}
+.forHoverBottom2_2{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 196, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.forHoverBottom2_2 h3{
+    color: white;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 9, 9);
+    font-size: 19px;
+    font-family: cursive;
+    transition: 0.4s;
+
+}
+a:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+/* errord nkary */
+
+.forArtistPic3_2{
+    width: 500px;
+    height: 350px;
+    background-image: url('/public/pic/Sirusho_pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.forHover3_2{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 196, 0, 0.847);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.7s ease;
+    
+
+}
+.forHover3_2:hover{
+    opacity: 1;
+    transition: 0.7s ease;
+    transform: translateY(-30px)
+    
+}
+
+.forHoverTop3_2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+.forHoverTop3_2 h3{
+    color: white;
+    font-size: 19px;
+}
+.forHoverTop3_2 p {
+    color: rgb(61, 61, 61);
+    font-size: 19px;
+}
+.forHoverBottom3_2{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(255, 196, 0, 0.747);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+.forHoverBottom3_2 h3{
+    color: white;
+    font-size: 19px;
+}
+a{
+    text-decoration: none;
+    color: rgb(187, 12, 12);
+    font-size: 19px;
+    font-family: cursive;
+    transition: 0.4s;
+
+}
+a:hover{
+    transition: 0.4s;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .myArtists_2 {
+        height: auto; 
+        flex-direction: column; 
+    }
+
+    .forArtistPic_2,
+    .forArtistPic2_2,
+    .forArtistPic3_2 {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .myArtists_2 h1 {
+        font-size: 24px;
+    }
+
+    .forArtistPic_2,
+    .forArtistPic2_2,
+    .forArtistPic3_2 {
+        height: 250px;
+        width: 350px;
+    }
+
+    .forHover_2,
+    .forHover2_2,
+    .forHover3_2 {
+        width: 290px;
+        height: 180px;
+        padding-bottom: 10px;
+    }
+
+    .forHoverTop_2,
+    .forHoverTop2_2,
+    .forHoverTop3_2 {
+        height: 60%;
+    }
+
+    .forHoverTop_2 h3,
+    .forHoverTop2_2 h3,
+    .forHoverTop3_2 h3 {
+        font-size: 16px;
+    }
+
+    .forHoverTop_2 p,
+    .forHoverTop2_2 p,
+    .forHoverTop3_2 p {
+        font-size: 16px; 
+    }
+
+    .forHoverBottom_2,
+    .forHoverBottom2-2,
+    .forHoverBottom3_2 {
+        height: 40%;
+    }
+
+    .forHoverBottom_2 h3,
+    .forHoverBottom2_2 h3,
+    .forHoverBottom3_2 h3 {
+        font-size: 16px; 
+    }
+
+    a {
+        font-size: 16px;
+    }
+}
+
+
+
